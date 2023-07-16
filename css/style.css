@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* common start */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px ;
+    font-weight:400;
+    color: #8e8e8e ;
+}
+/* common end */
+
+/* header start */
+header {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.logo {
+    font-size: 30px;
+}
+.menu {}
+
+.menu ul li a { 
+    margin-right: 30px;
+}
+
+.menu ul li a:hover { 
+    color: black;
+}
+.btn_s {
+    border: 0;
+}
+
+.btn_s i {
+    font-size: 16px;
+    color: #8e8e8e;
+}
+.btn_s::after {
+    display: none;
+}
+
+.ddm {
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.ddm[data-bs-popper] {
+    top: 53px !important;
+    left: -260px !important;
+    margin-top: 0;
+}
+.d_input {
+    width: 100%;
+    height: 35px;
+    border: 0;
+}
+
+.d_input:focus {
+    box-shadow: none;
+}
+.d_btn {
+    width: 100%;
+    height: 35px;
+    background-color: transparent;
+    border: 0;
+}
+
+.d_btn i {
+    color: #8e8e8e;
+}
+/* header end */
+
+/* slider start */
+
+.slider {
+    background-image: url(../images/slider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.s_item {
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.sitem_h1 {
+    font-size: 56px;
+}
+.sitem_p {
+    margin: 50px 0 50px;
+}
+
+.car_btn {
+    border: none;
+}
+
+.s_btn {
+    font-weight: 600;
+    color: black;  
+}
+.s_btn:hover {
+    
+    color: #8e8e8e;
+}
+/* slider end */
+/*service start*/
+.service{
+	padding-bottom: 95px;
+}
+.c_arrow{
+	width: 3px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.sv_item{
+	margin-top: 60px;
+	padding: 70px 15px 35px;
+	border: 1px solid #8e8e8e;
+	text-align: center;
+}
+.sv_icon{
+	margin: -90px auto 0;
+    width: 65px;
+    background-color: white;
+}
+.sv_icon i{
+	font-size: 60px;
+	color: #8e8e8e;
+}
+.sv_h2{}
+.sv_hr{
+	width: 50px;
+    margin: 10px auto;
+    border-top: 3px solid red#8e8e8e;
+}
+.sv_p{
+	color: #8e8e8e;
+}
+.sv_a{
+	color: #8e8e8e;
+}
+
+.sv_item:hover {
+	border: 1px solid #333333;
+}
+.sv_item:hover .sv_icon i{
+	color: #333333;
+}
+.sv_item:hover .sv_a{
+	color: #333333;
+}
+/*service end*/
